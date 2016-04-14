@@ -1,19 +1,28 @@
 === Plugin Name ===
+
 Contributors: nabtron
+
 Donate link: http://nabtron.com/
-Tags: remove postid from end, change permalink, redirect, permalink
+
+Tags: remove, post_id, postid, from, end, change permalink, redirect, permalink, postname, only
+
 Requires at least: 4.2.2
-Tested up to: 4.2.2
-Stable tag: 1.0
+
+Tested up to: 4.5
+
+Stable tag: 1.0.2
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Redirect Permalink plugin allows you to efficiently redirect your previous urls that were /postname/post_id/ to only /postname/ that WordPress doesn't do automatically.
+Efficiently redirect previous urls that were '/postname/post_id/' to  '/postname/' automatically. Respects query variables.
 
 == Description ==
-WP Redirect Permalink plugin allows you to efficiently redirect your previous urls that were /postname/post_id/ to only /postname/ that WordPress doesn't do automatically.
 
-If you've planned to change your WordPress permalink from /%postname%/%postid%/ to only /%postname%/ , although the old links still work fine, they're not automatically transferred to the new one without the post id in it. This can cause serious duplicate content issue for your site (can be seen and confirmed by Google webmaster tools). 
+WP Redirect Permalink plugin allows you to efficiently redirect your previous urls that were <strong><code>'/postname/post_id/'</code></strong> to only <strong><code>'/postname/'</code></strong> that WordPress doesn't do automatically. This plugin respects and keeps the query variable in your url while changing the permalink structure.
+
+If you've planned to change your WordPress permalink from <strong><code>/%postname%/%postid%/</code></strong> to only <strong><code>/%postname%/</code></strong> , although the old links still work fine, they're not automatically transferred to the new one without the post id in it. This can cause serious duplicate content issue for your site (can be seen and confirmed by Google webmaster tools). 
 
 This plugin removed those duplicated content issues by redirecting the visitor to the new permalink with a 301 (permanently moved) status code.
 
@@ -29,7 +38,38 @@ How to istall ?
 2. Upload entire folder "WP-Redirect-Permalink" to the "/wp-content/plugins/" directory
 3. Activate the plugin through the "Plugins" menu in WordPress
 
+== Frequently Asked Questions ==
+
+= Does it respect query variables? =
+
+Yes it does. It keeps the ?variable= values for all variable. If you find any bug please report.
+
+== Screenshots ==
+
+1. Screenshot-1.png
+
 == Changelog ==
 
+= 1.0.2 =
+
+* Confirmed WordPress 4.5 compatibility
+
+* Changed base function name from 'wp_permalink_redirect' to 'wp_redirect_permalink'
+
+= 1.0.1 =
+
+* Fixed typo in Plugin name and URI
+
 = 1.0 =
+
 * This is the first version of the WP Redirect Permalink
+
+== Upgrade Notice ==
+
+= 1.0.2 =
+
+Confirmed WordPress 4.5 compatibility and changed base function name from 'wp_permalink_redirect' to 'wp_redirect_permalink'
+
+= 1.0.1 =
+
+Fixed typo in Plugin name and URI
