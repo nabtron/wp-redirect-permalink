@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP Redirect Permallink
-Plugin URI: http://nabtron.com/wp-redirect-permalink/
+Plugin URI: https://nabtron.com/wp-redirect-permalink/
 Description: Redirects old permalink format: <strong><code>'/postname/post_id/'</code></strong> links to new: <code><strong>'/postname/'</code></strong> only using <strong>301 redirect</strong>. Respects query variables.
 Author: nabtron
-Version: 1.0.2
-Author URI: http://nabtron.com/
+Version: 1.0.7
+Author URI: https://nabtron.com/
 */
 
 function wp_redirect_permalink()
@@ -19,5 +19,3 @@ function wp_redirect_permalink()
 	}
 }
 add_action( 'template_redirect', 'wp_redirect_permalink' );
-
-?>
