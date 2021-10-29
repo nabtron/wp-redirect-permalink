@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: nabtron
-Donate link: http://nabtron.com/
+Donate link: https://nabtron.com/
 Tags: remove, post_id, postid, from, end, change permalink, redirect, permalink, postname, only
 Requires at least: 4.2.2
-Tested up to: 4.5
-Stable tag: 1.0.2
+Tested up to: 5.8.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ This plugin removed those duplicated content issues by redirecting the visitor t
 
 This plugin takes care of pagination of categories and blog list and allows them to work normally. 
 
-If you have any feedback, suggestion, request or bug report please let us know at: http://nabtron.com/wp-redirect-permalink/
+If you have any feedback, suggestion, request or bug report please let us know at: https://nabtron.com/wp-redirect-permalink/
 
 == Installation ==
 
@@ -40,6 +40,21 @@ Yes it does. It keeps the ?variable= values for all variable. If you find any bu
 
 == Changelog ==
 
+= 1.0.7 =
+* Confirmed WordPress 5.8.1 compatibility
+
+= 1.0.6 =
+* Confirmed WordPress 5.5.3 compatibility
+
+= 1.0.5 =
+* Confirmed WordPress 5.2.2 compatibility
+
+= 1.0.4 =
+* Confirmed WordPress 5.0 compatibility
+
+= 1.0.3 =
+* Confirmed WordPress 4.9.4 compatibility
+
 = 1.0.2 =
 * Confirmed WordPress 4.5 compatibility
 * Changed base function name from 'wp_permalink_redirect' to 'wp_redirect_permalink'
@@ -52,8 +67,5 @@ Yes it does. It keeps the ?variable= values for all variable. If you find any bu
 
 == Upgrade Notice ==
 
-= 1.0.2 =
-Confirmed WordPress 4.5 compatibility and changed base function name from 'wp_permalink_redirect' to 'wp_redirect_permalink'
-
-= 1.0.1 =
-Fixed typo in Plugin name and URI
+= 1.0.7 =
+Confirmed WordPress 5.8.1 compatibility
